@@ -1,7 +1,13 @@
-function SearchResults() {
+import { useState } from "react";
+import SearchResultsShow from "./SearchResultsShow";
+
+function SearchResults({songs}) {
+
+
+
   return(
     <div>
-      Search Results
+      {songs.length}
     </div>
   )
 }
