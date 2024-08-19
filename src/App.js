@@ -48,16 +48,11 @@ function App() {
       }
     })
 
-    console.log(result.data.tracks.items)
+    //console.log(result.data.tracks.items)
 
 
     setSongs(result.data.tracks.items);
   }
-
-
-
-
-
 
 
   return (
