@@ -1,24 +1,26 @@
 function SearchResultsShow({song}) {
 
-  const renders = song.album.images;
+  const arrayOfImages = song.album.images;
+  const trackUrl = song.external_urls.spotify;
 
-  //console.log(renders);
-
-  const image = renders.filter((render, index) => {
+  
+  const image = arrayOfImages.filter((render, index) => {
     return index <= 0 ? render.url : null;
   })
 
-  //console.log(image[0].url)
+  const imageUrl = image[0].url;
 
-  const image2 = image[0].url
-  console.log(image2)
-
-
-
+  const handleClick = () => {
+    window.open(trackUrl, '_blank');
+  }
 
   return (
     <div>
-      <img src ={image2}></img>
+      <div onClick={handleClick}>
+        <img src ={imageUrl}></img>
+        <div>{song.name}</div>
+        <div>Song &#8729; {song.artists[0].name}</div>
+      </div>
     </div>
   )
 }
