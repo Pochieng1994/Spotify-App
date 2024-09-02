@@ -5,9 +5,11 @@ import { useState } from "react";
 import qs from 'qs';
 import { Buffer } from "buffer"
 import './css/App.css';
-import myImage from './images/Spotify 4.png';
-import homeIcon from './images/Home.png';
-import searchIcon from './images/Search-icon.png'
+import NavBar from "./components/NavBar";
+
+
+
+
 
 
 
@@ -65,14 +67,7 @@ function App() {
     <div className="container">
       <div className="columns">
         <div className="column-div-1 column">
-          <div>
-            <img src= {myImage} height='100px' width='100px'></img>
-          </div>
-          <div>
-            <img src={homeIcon} height='30px' width='30px'></img>
-            <h4 className="homeHeader">Home</h4>
-          </div>
-          <div><img src={searchIcon} height='25px' width='35px'></img></div>
+          <NavBar/>
         </div>
 
         <div className="column-div-2 column"><SearchBar onSubmit = {getSong}/></div>

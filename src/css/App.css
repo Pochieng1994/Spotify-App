@@ -6,6 +6,7 @@ body {
 
 .column-div-1 {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .column-div-2 {
