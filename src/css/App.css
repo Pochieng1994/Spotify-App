@@ -3,19 +3,54 @@ body {
   color: white;
 }
 
+.container {
+  display: flex;
+ }
+
 
 .column-div-1 {
-  display: inline-block;
   margin-right: 10px;
 }
 
-.column-div-2 {
-  display: inline-block;
+
+.header-div {
+  margin-bottom: -10px;
 }
 
-.homeHeader {
-  font-size: 15px;
-  display: inline-block;
+.nav ul{
+  display: flex;
+}
+
+.spotify-image {
+  margin-right: 350px;
+  padding-left: -40px;
+}
+
+.home {
+  width: 38px;
+  height: 38px;
+  margin-right: 5px;
+  margin-top: 8px;
+}
+
+.search-bar {
+  margin-right: 130px;
+}
+
+.sign-up {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(165, 160, 160);
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+.log-in {
+  height: 50px;
+  width: 110px;
+  border-radius: 30px;
+  border-style: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 

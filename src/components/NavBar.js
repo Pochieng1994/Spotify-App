@@ -1,6 +1,4 @@
-import myImage from '../images/Spotify 4.png';
 import homeIcon from '../images/Home.png';
-import searchIcon from '../images/Search-icon.png';
 import '../css/NavBar.css';
 import { VscLibrary } from "react-icons/vsc";
 import { AiOutlinePlus } from "react-icons/ai";
@@ -11,26 +9,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 function NavBar() {
   return (
     <div>
-      <div className='div-1'>
-          <nav>
-            <ul>
-              <li>
-                <img src= {myImage} height='100px' width='100px'></img>
-              </li>
-              <li className='item-2'>
-                <img src={homeIcon} height='30px' width='30px'></img>
-                <h4 className="homeHeader">Home</h4>
-              </li>
-              <li>
-                <img src={searchIcon} height='25px' width='35px'></img>
-                <h4 className='search'>Search</h4>
-              </li>
-            </ul>
-          </nav>
-      </div>
-
       <div className='div-2'>
-
         <nav>
           <ul>
             <li className='list-item'>
@@ -55,9 +34,23 @@ function NavBar() {
               </div>
             </li>
 
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+              <p className='legal'>Legal</p>
+              <p className='legal'>Safefy & Privacy Center</p>
+              <p className='legal'>Privacy Policy</p>
+            </li>
+            <li>
+              <p className='about'>Cookies</p>
+              <p className='about'>About Ads</p>
+              <p className='about'>Accessibility</p>
+            </li>
+            <li>
+              <p className='notice'>Notice at Collection</p>
+              <p className='notice'>Your Privacy Choices</p>
+            </li>
+            <li>
+              <p className='cookie'>Cookies</p>
+            </li>
           </ul>
         </nav>
 

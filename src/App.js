@@ -6,6 +6,9 @@ import qs from 'qs';
 import { Buffer } from "buffer"
 import './css/App.css';
 import NavBar from "./components/NavBar";
+import { GoHome } from "react-icons/go";
+import Spotify from './images/Spotify.png';
+
 
 
 
@@ -64,18 +67,47 @@ function App() {
 
   return (
   <div className="main-div">
+
+          <div className="header-div">
+            <nav className="nav">
+              <ul>
+                <li className="spotify-image">
+                  <img src = {Spotify} height='60px' width = '60px'></img>
+                </li>
+                <li>
+                  <GoHome className="home"/>
+                </li>
+                <li className="search-bar">
+                  <SearchBar onSubmit = {getSong}/>
+                </li>
+                <li className="sign-up">
+                  Sign Up
+                </li>
+                <li>
+                  <button className="log-in">Log in</button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
     <div className="container">
-      <div className="columns">
-        <div className="column-div-1 column">
+
+      <div className="column">
+        <div className="column-div-1">
           <NavBar/>
         </div>
-
-        <div className="column-div-2 column"><SearchBar onSubmit = {getSong}/></div>
       </div>
+
+      <div className="column">
+        <div>
+          <SearchResults songs ={songs}/>
+        </div>
+      </div>
+      
     </div>
 
     
-    <SearchResults songs ={songs}/>
+    
   </div>
   ) 
  }
