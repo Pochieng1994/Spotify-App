@@ -61,9 +61,6 @@ function App() {
       }
     })
 
-    //console.log(result.data.tracks.items)
-
-
     setSongs(result.data.tracks.items);
   }
 
@@ -103,13 +100,8 @@ function App() {
 
       <div className="column">
         <div className="results-div">
-
           {songs.length > 0 ? <SearchResults songs ={songs}/> : <HomePage/>}
         </div>
-
-        
-          
-        
       </div>
       
     </div>
