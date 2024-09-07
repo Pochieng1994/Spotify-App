@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  padding: 15px;
+}
+
+.browse {
+  padding-top: 50px;
+  padding-left: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home-column-1 {
+  background-color: rgb(220, 20, 140);
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-column-1 {
+  cursor: pointer;
+}
+
+.categories {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+
+.home-2 {
+  background-color: rgb(132, 0, 231);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-2:hover {
+  cursor: pointer;
+}
+
+.home-3 {
+  background-color: rgb(216, 64, 0);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-3:hover {
+  cursor: pointer;
+}
+
+.home-4 {
+  background-color: rgb(13, 115, 236);
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-4:hover {
+  cursor: pointer;
+}
+
+.home-column-2 {
+  background-color: rgb(0, 100, 80);
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-column-2:hover {
+  cursor: pointer;
+}
+
+.home-6 {
+  background-color: rgb(30, 50, 100);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-6:hover {
+  cursor: pointer;
+}
+
+.home-7 {
+  background-color: rgb(71, 125, 149);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-7:hover {
+  cursor: pointer;
+}
+
+.home-8 {
+  background-color: rgb(13, 115, 236);
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-8:hover {
+  cursor: pointer;
+}
+
+.home-column-3 {
+  background-color: rgb(30, 50, 100);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-column-3:hover {
+  cursor: pointer;
+}
+
+.home-9 {
+  background-color: rgb(186, 93, 7);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-9:hover {
+  cursor: pointer;
+}
+
+.home-10 {
+  background-color: rgb(71, 125, 149);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-10:hover {
+  cursor: pointer;
+}
+
+.home-11 {
+  background-color: rgb(39, 133, 106);
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+}
+
+.home-11:hover {
+  cursor: pointer;
+}

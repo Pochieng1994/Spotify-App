@@ -1,4 +1,3 @@
-import homeIcon from '../images/Home.png';
 import '../css/NavBar.css';
 import { VscLibrary } from "react-icons/vsc";
 import { AiOutlinePlus } from "react-icons/ai";
@@ -22,7 +21,7 @@ function NavBar() {
               <div className='div-3'>
                 <h4>Create your first playlist</h4>
                 <p>It's easy, we'll help you</p>
-                <button className='button'>Create playlist</button>
+                <button className='button-one'>Create playlist</button>
               </div>
             </li>
 
@@ -30,7 +29,7 @@ function NavBar() {
               <div className='div-4'>
                 <h4>Let's find some podcasts to follow</h4>
                 <p>We'll keep you updated on new episodes</p>
-                <button className='button-2'>Browse podcasts</button>
+                <button className='button-two'>Browse podcasts</button>
               </div>
             </li>
 

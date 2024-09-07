@@ -1,0 +1,37 @@
+.image {
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.song-artist {
+  display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.results-div-1 {
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.results-div-1:hover {
+  background-color: rgb(38, 36, 36);
+}
+
+.name {
+  font-size: 25px;
+}
+
+.name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.artist-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -8,6 +8,7 @@ body {
  }
 
 
+
 .column-div-1 {
   margin-right: 10px;
 }
@@ -24,6 +25,10 @@ body {
 .spotify-image {
   margin-right: 350px;
   padding-left: -40px;
+}
+
+.spotify-image:hover {
+  cursor: pointer;
 }
 
 .home {
@@ -44,12 +49,28 @@ body {
   margin-top: 15px;
 }
 
+.sign-up:hover {
+  transform: scale(1.05);
+  color: white;
+  cursor: pointer;
+}
+
 .log-in {
   height: 50px;
   width: 110px;
   border-radius: 30px;
   border-style: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.log-in:hover {
+  transform: scale(1.05);
+}
+
+.results-div {
+  padding-right: 0px;
+  background-color: rgb(13, 11, 11);
+  border-radius: 10px;
 }
 
 

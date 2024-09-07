@@ -1,5 +1,6 @@
 import SearchBar from "./components/SearchBar";
 import SearchResults from "./components/SearchResults";
+import HomePage from "./components/HomePage";
 import axios from "axios";
 import { useState } from "react";
 import qs from 'qs';
@@ -19,6 +20,8 @@ import Spotify from './images/Spotify.png';
 function App() {
 
   const [songs, setSongs] = useState([]);
+
+  console.log(songs)
 
   const clientID = process.env.REACT_APP_SPOTIFY_API_ID;
   const clientSecret = process.env.REACT_APP_SPOTIFY_CLIENT_SECRET;
@@ -54,11 +57,11 @@ function App() {
       params: {
         q: term,
         type: 'track',
-        limit: 5,
+        limit: 10,
       }
     })
 
-    console.log(result.data.tracks.items)
+    //console.log(result.data.tracks.items)
 
 
     setSongs(result.data.tracks.items);
@@ -99,9 +102,14 @@ function App() {
       </div>
 
       <div className="column">
-        <div>
-          <SearchResults songs ={songs}/>
+        <div className="results-div">
+
+          {songs.length > 0 ? <SearchResults songs ={songs}/> : <HomePage/>}
         </div>
+
+        
+          
+        
       </div>
       
     </div>

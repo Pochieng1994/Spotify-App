@@ -66,7 +66,7 @@ li {
 
 }
 
-.button {
+.button-one {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 14px;
   font-weight: 800;
@@ -74,6 +74,10 @@ li {
   border-radius: 20px;
   height: 30px;
   width: 140px;
+}
+
+.button-one:hover {
+  transform: scale(1.05);
 }
 
 .div-4 {
@@ -90,7 +94,7 @@ li {
 
 }
 
-.button-2 {
+.button-two {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 14px;
   font-weight: 800;
@@ -99,6 +103,11 @@ li {
   height: 30px;
   width: 140px;
 }
+
+.button-two:hover {
+  transform: scale(1.05);
+}
+
 
 .legal {
   font-size: 10px;

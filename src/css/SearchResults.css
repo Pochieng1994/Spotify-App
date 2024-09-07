@@ -1,0 +1,156 @@
+.buttons-list {
+  display: flex;
+  padding-top: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.all-buttons-1 {
+  margin-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-style: none;
+  height: 30px;
+  width: 50px;
+  border-radius: 20px;
+}
+
+.all-buttons-2 {
+  margin-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-style: none;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  background-color: rgb(25, 23, 23);
+  color: white;
+}
+
+.all-buttons-2:hover {
+  background-color: rgb(38, 36, 36);
+  transition: 0.3s;
+}
+
+.all-buttons-3 {
+  margin-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-style: none;
+  height: 30px;
+  border-radius: 20px;
+  width: 70px;
+  background-color: rgb(25, 23, 23);
+  color: white;
+}
+
+.all-buttons-3:hover {
+  background-color: rgb(38, 36, 36);
+  transition: 0.3s;
+}
+
+.all-buttons-4 {
+  margin-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-style: none;
+  height: 30px;
+  border-radius: 20px;
+  width: 80px;
+  background-color: rgb(25, 23, 23);
+  color: white;
+}
+
+.all-buttons-4:hover {
+  background-color: rgb(38, 36, 36);
+  transition: 0.3s;
+}
+
+.all-buttons-5 {
+  margin-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-style: none;
+  height: 30px;
+  border-radius: 20px;
+  width: 60px;
+  background-color: rgb(25, 23, 23);
+  color: white;
+}
+
+.all-buttons-5:hover {
+  background-color: rgb(38, 36, 36);
+  transition: 0.3s;
+}
+
+.all-buttons-6 {
+  margin-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-style: none;
+  height: 30px;
+  border-radius: 20px;
+  width: 140px;
+  background-color: rgb(25, 23, 23);
+  color: white;
+}
+
+.all-buttons-6:hover {
+  background-color: rgb(38, 36, 36);
+  transition: 0.3s;
+}
+
+.all-buttons-7 {
+  margin-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-style: none;
+  height: 30px;
+  border-radius: 20px;
+  width: 120px;
+  background-color: rgb(25, 23, 23);
+  color: white;
+}
+
+.all-buttons-7:hover {
+  background-color: rgb(38, 36, 36);
+  transition: 0.3s;
+}
+
+.all-buttons-8 {
+  margin-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-style: none;
+  height: 30px;
+  border-radius: 20px;
+  width: 80px;
+  background-color: rgb(25, 23, 23);
+  color: white;
+}
+
+.all-buttons-8:hover {
+  background-color: rgb(38, 36, 36);
+  transition: 0.3s;
+}
+
+.all-buttons-9 {
+  margin-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-style: none;
+  height: 30px;
+  border-radius: 20px;
+  width: 100px;
+  background-color: rgb(25, 23, 23);
+  color: white;
+}
+
+.all-buttons-9:hover {
+  background-color: rgb(38, 36, 36);
+  transition: 0.3s;
+}
+
+.song-header {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+  margin-top: 50px;
+
+}
+
+
+
+
