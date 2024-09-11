@@ -4,7 +4,7 @@ import HomePage from "./components/HomePage";
 import axios from "axios";
 import { useState } from "react";
 import qs from 'qs';
-import { Buffer } from "buffer"
+import { Buffer } from "buffer";
 import './css/App.css';
 import NavBar from "./components/NavBar";
 import { GoHome } from "react-icons/go";
