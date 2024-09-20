@@ -6,9 +6,9 @@ React-JS Application that enables a user to search for and listen to any song in
 
 ## How the Application Works
 
-You enter a specific song in the input field that you would wish to listen to, upon pressing enter the application 
-will generate a list of songs that correspond to the search term that you queried for. Once the list has
-been generated and you click on the song you wish to listen to, you will be directed to a new tab where you can 
+The user enters a specific song in the input field that they would wish to listen to, upon pressing enter the application 
+will generate a list of songs that correspond to the search term that the user queried for. Once the list has
+been generated the user can click on the song he or she wishes to listen to, the user will be directed to a new tab where they can 
 listen to the song.
 
 ## Technologies Used
