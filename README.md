@@ -1,5 +1,7 @@
 # Spotify Application
 
+## Overview
+
 React-JS Application that enables a user to search for and listen to any song inside of Spotify's Database.
 
 ## How the app works
