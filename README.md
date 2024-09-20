@@ -4,7 +4,7 @@
 
 React-JS Application that enables a user to search for and listen to any song inside of Spotify's Database.
 
-## How the application works
+## How the Application Works
 
 You enter a specific song in the input field that you would wish to listen to, upon pressing enter the application 
 will generate a list of songs that correspond to the search term that you queried for. Once the list has
