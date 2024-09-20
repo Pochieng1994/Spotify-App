@@ -15,7 +15,7 @@ listen to the song.
 
 JSX, CSS, Javascript, React-JS, and the Axios Library.
 
-## How to get the App Started
+## How to get the Application Started
 
 You want to clone the app onto your local machine, after cloning you want to enter the directory that contains
 all of the project files and run npm install in-order to install all the dependencies that the project relies 
