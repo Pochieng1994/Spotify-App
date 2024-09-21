@@ -18,7 +18,8 @@ JSX, CSS, Javascript, React-JS, and the Axios Library.
 ## How to get the Application Started
 
 First, go to https://developer.spotify.com/documentation/web-api in-order to Login to your existing Spotify account,
-if you don't have an account then you can Create an account. Once you've logged-in or created a Spotify account you'll
+if you don't have an account then you can Create an account. 
+Once you've logged-in or created a Spotify account you'll
 be directed to the dashboard where you'll click the "Create-app" button and select Web API for the question asking which
 APIs are you planning to use.
 
